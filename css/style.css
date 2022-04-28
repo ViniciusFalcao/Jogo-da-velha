@@ -1,0 +1,26 @@
+body{background-color:black;}
+#div1{
+    
+    position: relative;
+    left: 50%;
+    top: 270px;
+    width: 170px;
+    text-align: center;
+    
+}
+#botao_recarregar{
+    position: relative;
+    left: 53%;
+    top: 300px;
+    border-radius: 5px;
+    color:black;
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: black;
+    
+}
+
+
+.botao-style{
+    height: 50px;width: 50px;text-align: center;border: solid;
+}

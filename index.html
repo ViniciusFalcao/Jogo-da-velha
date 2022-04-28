@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="div1">
+    <br>
+   <button onclick="click1()" id="1botao" class="botao-style" ></button> 
+   <button onclick="click2()" id="2botao"class="botao-style" ></button>
+   <button onclick="click3()" id="3botao" class="botao-style" ></button>
+   <br>
+   <button onclick="click4()" id="4botao" class="botao-style" ></button> 
+   <button onclick="click5()" id="5botao" class="botao-style" ></button> 
+   <button onclick="click6()" id="6botao" class="botao-style" ></button> 
+   <br>
+   <button onclick="click7()" id="7botao" class="botao-style" ></button> 
+   <button onclick="click8()" id="8botao" class="botao-style" ></button> 
+   <button onclick="click9()" id="9botao" class="botao-style" ></button> 
+    </div>
+
+    <button id="botao_recarregar" onclick="recarregar()">Recarregar</button>
+
+    
+
+
+   
+
+
+
+    <script>
+        var rodada=0;
+       function click1(){
+          if(rodada%2==0) {
+            var botao1=document.getElementById("1botao");
+            botao1.innerHTML="<h1>X<h1>"
+            rodada++}
+        else{
+            var botao1=document.getElementById("1botao");
+            botao1.innerHTML="<h1>O</h1>"
+            rodada++ 
+        }
+       } 
+       function click2(){
+          if(rodada%2==0) {
+            var botao2=document.getElementById("2botao");
+            botao2.innerHTML="<h1>X</h1>"
+            rodada++}
+        else{
+            var botao2=document.getElementById("2botao");
+            botao2.innerHTML="<h1>O</h1>"
+            rodada++ 
+        }
+       }
+       function click3(){
+          if(rodada%2==0) {
+            var botao3=document.getElementById("3botao");
+            botao3.innerHTML="<h1>X</h1>"
+            rodada++}
+        else{
+            var botao3=document.getElementById("3botao");
+            botao3.innerHTML="<h1>O</h1>"
+            rodada++ 
+        }
+       }
+       function click4(){
+          if(rodada%2==0) {
+            var botao4=document.getElementById("4botao");
+            botao4.innerHTML="<h1>X</h1>"
+            rodada++}
+        else{
+            var botao4=document.getElementById("4botao");
+            botao4.innerHTML="<h1>O</h1>"
+            rodada++ 
+        }
+       }
+       function click5(){
+          if(rodada%2==0) {
+            var botao5=document.getElementById("5botao");
+            botao5.innerHTML="<h1>X</h1>"
+            rodada++}
+        else{
+            var botao5=document.getElementById("5botao");
+            botao5.innerHTML="<h1>O</h1>"
+            rodada++ 
+        }
+       }
+       function click6(){
+          if(rodada%2==0) {
+            var botao6=document.getElementById("6botao");
+            botao6.innerHTML="<h1>X</h1>"
+            rodada++}
+        else{
+            var botao6=document.getElementById("6botao");
+            botao6.innerHTML="<h1>O</h1>"
+            rodada++ 
+        }
+       }
+       function click7(){
+          if(rodada%2==0) {
+            var botao7=document.getElementById("7botao");
+            botao7.innerHTML="<h1>X</h1>"
+            rodada++}
+        else{
+            var botao7=document.getElementById("7botao");
+            botao7.innerHTML="<h1>O</h1>"
+            rodada++ 
+        }
+       }
+       function click8(){
+          if(rodada%2==0) {
+            var botao8=document.getElementById("8botao");
+            botao8.innerHTML="<h1>X</h1>"
+            rodada++}
+        else{
+            var botao8=document.getElementById("8botao");
+            botao8.innerHTML="<h1>O</h1>"
+            rodada++ 
+        }
+       }
+       function click9(){
+          if(rodada%2==0) {
+            var botao9=document.getElementById("9botao");
+            botao9.innerHTML="<h1>X</h1>"
+            rodada++}
+        else{
+            var botao9=document.getElementById("9botao");
+            botao9.innerHTML="<h1>O</h1>"
+            rodada++ 
+        }
+       }
+       function recarregar(){
+           location.reload();
+
+       }
+
+
+    </script>
+</body>
+</html>
