@@ -1,17 +1,12 @@
 body{background-color:black;}
 #div1{
-    
-    position: relative;
-    left: 50%;
-    top: 270px;
-    width: 170px;
+    width: 940px;
+    margin: 0px auto;
     text-align: center;
+    margin-top: 200px;
     
 }
 #botao_recarregar{
-    position: relative;
-    left: 53%;
-    top: 300px;
     border-radius: 5px;
     color:black;
     background-color: aqua;
@@ -20,7 +15,11 @@ body{background-color:black;}
     
 }
 
-
 .botao-style{
     height: 50px;width: 50px;text-align: center;border: solid;
+}
+@media screen and (max-width:480px) {
+    #div1{
+        width: auto;
+    }
 }
